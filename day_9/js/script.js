@@ -9,6 +9,8 @@ const button = document.getElementById("button")
 //changes
 title.innerHTML="HTML DOM- JS"
 content.innerHTML="JS DOM | HTML Element property"
+button.innerHTML="Click Me"
+button.onclick=function(){alert('Button Clicked')}
 //here innerHTML property is use to manipulate data inside
 //HTML element
 //style
