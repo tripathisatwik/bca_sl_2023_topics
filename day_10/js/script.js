@@ -22,9 +22,8 @@ function generateValue() {
   // generating random number using math package
   const generatedResult = Math.random() * inputValue;
   console.log("Random number in decimal: " + generatedResult);
-
   document.getElementById("randomnum").innerHTML =
-    "Random NUmber in decimal: " + generatedResult;
+    "Random Number in decimal: " + generatedResult;
 
   // to get whole number convert to floor
   const resultInWholeNum = Math.floor(Math.random() * inputValue);

@@ -45,9 +45,9 @@ console.log(movies)
 //4.unshift() - add an element at the brginning of the array
 let kings = ["Mahendra", "Birendra", "Gyanendra"]
 console.log(kings)
-kings.shift()
+kings.unshift("Edward")
 console.log(kings)
-kings.shift()
+kings.unshift("Philip")
 console.log(kings)
 
 //5. splice() - add/or remove element from specified index

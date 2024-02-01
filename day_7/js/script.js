@@ -7,7 +7,7 @@
 //Type of user defined function
 //1. Without parameter and return type
 function showMessage(){
-    let message="Have a nice day"
+    let message=" Have a nice day"
     console.log("Message"+message)
 }
 //invoking function
